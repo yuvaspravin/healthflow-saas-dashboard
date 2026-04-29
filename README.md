@@ -2,6 +2,13 @@
 
 HealthFlow is a high-performance, type-safe Healthcare SaaS Dashboard designed for clinic administrators to manage patient records, monitor facility performance, and track real-time activity. Built with a focus on User Experience (UX) and Data Integrity, it features a fully persistent state and a responsive, modern "Emerald" aesthetic.
 
+## Live Demo
+
+https://healthflow-saas-dashboard.vercel.app/
+
+Email - test@raga.com
+Password - password@123
+
 ## 📋 Patient Management (CRUD)
 
 - Create, Read, Update, Delete: Comprehensive patient record management with specialized views for viewing details and editing data.
