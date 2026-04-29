@@ -29,6 +29,7 @@ const Login = () => {
       navigate("/dashboard");
     } catch (err: unknown) {
       const message = "Invalid email or password. Please try again.";
+      console.log(err);
       setError(message);
       dispatch(setAuthError(message));
       toast.error("Invalid email or password. Please try again.");

@@ -53,7 +53,7 @@ HealthFlow is a high-performance, type-safe Healthcare SaaS Dashboard designed f
 
 1.  Clone the repository:
 
-    git clone https://github.com/yourusername/healthcare-saas.git
+    git clone https://github.com/yuvaspravin/healthflow-saas-dashboard.git
 
 2.  Install dependencies:
 
@@ -71,4 +71,4 @@ HealthFlow is a high-performance, type-safe Healthcare SaaS Dashboard designed f
 
 Yuvas Pravin
 
-[Link to your LinkedIn/Portfolio]
+[(https://www.linkedin.com/in/yuvas-pravin/)]

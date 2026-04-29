@@ -148,7 +148,6 @@ const Dashboard = () => {
                 </div>
                 <Button
                   variant="outline"
-                  size="sm"
                   className="h-8 text-[10px] font-bold px-3 border-slate-200"
                   onClick={() => toast.info(`Rescheduling ${app.patient}...`)}
                 >

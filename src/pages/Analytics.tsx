@@ -22,6 +22,15 @@ const data = [
   { name: "May", patients: 189, revenue: 4800 },
 ];
 
+interface StatCardProps {
+  title: string;
+  value: string;
+  icon: React.ReactNode;
+  trend: string;
+  color: string;
+  bgColor: string;
+}
+
 const Analytics = () => {
   return (
     <MainLayout>
@@ -163,8 +172,14 @@ const Analytics = () => {
   );
 };
 
-// Small Helper Component for the Stats at the top
-const StatCard = ({ title, value, icon, trend, color, bgColor }: any) => (
+const StatCard = ({
+  title,
+  value,
+  icon,
+  trend,
+  color,
+  bgColor,
+}: StatCardProps) => (
   <Card className="p-6 flex items-center justify-between border-slate-100 shadow-sm">
     <div>
       <p className="text-sm font-medium text-slate-500 mb-1">{title}</p>
